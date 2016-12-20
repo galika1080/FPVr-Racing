@@ -1,0 +1,223 @@
+Wavefront OBJ material file
+# Contains 22 materials
+
+newmtl Stone
+# Ns 0
+# Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Grass_Block
+# Ns 0
+# Ka 0.109804 0.148235 0.0682353
+Kd 0.54902 0.741176 0.341176
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Dirt
+# Ns 0
+# Ka 0.109804 0.0776471 0.0533333
+Kd 0.54902 0.388235 0.266667
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Stationary_Water
+# Ns 0
+# Ka 0.0321569 0.0729412 0.199216
+Kd 0.160784 0.364706 0.996078
+Ks 0 0 0
+# # illum 4
+d 0.535
+Tr 0.535
+# # Tf 0.91398 0.804882 0.467098
+
+
+newmtl Sand
+# Ns 0
+# Ka 0.172549 0.163137 0.130196
+Kd 0.862745 0.815686 0.65098
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Gravel
+# Ns 0
+# Ka 0.104314 0.0964706 0.0964706
+Kd 0.521569 0.482353 0.482353
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Iron_Ore
+# Ns 0
+# Ka 0.147451 0.12 0.100392
+Kd 0.737255 0.6 0.501961
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Coal_Ore
+# Ns 0
+# Ka 0.0407843 0.0407843 0.0407843
+Kd 0.203922 0.203922 0.203922
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Wood
+# Ns 0
+# Ka 0.0823529 0.065098 0.04
+Kd 0.411765 0.32549 0.2
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Oak_Leaves
+# Ns 0
+# Ka 0.0870588 0.134902 0.0345098
+Kd 0.435294 0.67451 0.172549
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Sandstone
+# Ns 0
+# Ka 0.175686 0.169412 0.130196
+Kd 0.878431 0.847059 0.65098
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Grass
+# Ns 0
+# Ka 0.109804 0.148235 0.0682353
+Kd 0.54902 0.741176 0.341176
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Dandelion
+# Ns 0
+# Ka 0.16549 0.173333 0.00392157
+Kd 0.827451 0.866667 0.0196078
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Poppy
+# Ns 0
+# Ka 0.161569 0.0203922 0.00392157
+Kd 0.807843 0.101961 0.0196078
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Brown_Mushroom
+# Ns 0
+# Ka 0.151373 0.113725 0.0886275
+Kd 0.756863 0.568627 0.443137
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Red_Mushroom
+# Ns 0
+# Ka 0.197647 0.0721569 0.0729412
+Kd 0.988235 0.360784 0.364706
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Crafting_Table
+# Ns 0
+# Ka 0.101961 0.0658824 0.0392157
+Kd 0.509804 0.329412 0.196078
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Clay
+# Ns 0
+# Ka 0.127059 0.13098 0.141176
+Kd 0.635294 0.654902 0.705882
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Sugar_Cane
+# Ns 0
+# Ka 0.0894118 0.116078 0.0611765
+Kd 0.447059 0.580392 0.305882
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Acacia_Leaves
+# Ns 0
+# Ka 0.0870588 0.134902 0.0345098
+Kd 0.435294 0.67451 0.172549
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Acacia/Dark_Oak_Wood
+# Ns 0
+# Ka 0.092549 0.0870588 0.0784314
+Kd 0.462745 0.435294 0.392157
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
+
+newmtl Sunflower
+# Ns 0
+# Ka 0.109804 0.148235 0.0682353
+Kd 0.54902 0.741176 0.341176
+Ks 0 0 0
+# # illum 2
+d 1
+Tr 1
+# 
