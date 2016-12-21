@@ -1,3 +1,8 @@
+	# This file basically tells Git what folders it should ignore and not upload to the online repo.
+
+# Temp stuff
+Temp
+
 # Logs
 logs
 *.log
