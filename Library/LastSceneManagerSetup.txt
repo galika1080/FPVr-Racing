@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/nightDrones.unity
-  isLoaded: 1
-  isActive: 1
