@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A8CB892C-B73A-60F2-8778-6DD66C23E517}") = "FPVr-Racing", "Assembly-CSharp-firstpass.csproj", "{773BB49C-2DC7-2CD7-BC38-9D7D913BBFAD}"
+EndProject
+Project("{A8CB892C-B73A-60F2-8778-6DD66C23E517}") = "FPVr-Racing", "Assembly-CSharp.csproj", "{649D81EB-EF3A-C338-3DBE-11C0EC7563B5}"
+EndProject
+Project("{A8CB892C-B73A-60F2-8778-6DD66C23E517}") = "FPVr-Racing", "Assembly-CSharp-Editor.csproj", "{F0A96D0B-5249-641D-F340-536FF2F28898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773BB49C-2DC7-2CD7-BC38-9D7D913BBFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773BB49C-2DC7-2CD7-BC38-9D7D913BBFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773BB49C-2DC7-2CD7-BC38-9D7D913BBFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773BB49C-2DC7-2CD7-BC38-9D7D913BBFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649D81EB-EF3A-C338-3DBE-11C0EC7563B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649D81EB-EF3A-C338-3DBE-11C0EC7563B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649D81EB-EF3A-C338-3DBE-11C0EC7563B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649D81EB-EF3A-C338-3DBE-11C0EC7563B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A96D0B-5249-641D-F340-536FF2F28898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A96D0B-5249-641D-F340-536FF2F28898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A96D0B-5249-641D-F340-536FF2F28898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A96D0B-5249-641D-F340-536FF2F28898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

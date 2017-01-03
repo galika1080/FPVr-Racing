@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 302fddbc8785b4f6a95557486d2b498c
+timeCreated: 1483308624
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: H
+    100004: L
+    100006: E
+    100008: N
+    100010: barpad
+    100012: cushion
+    100014: screw
+    100016: backrest
+    100018: cushionboard
+    100020: goodcushion
+    100022: Plane
+    100024: Plane_MeshPart0
+    100026: Plane_MeshPart1
+    100028: Plane_MeshPart2
+    100030: bars
+    100032: cuchion
+    100034: bars_001
+    400000: //RootNode
+    400002: H
+    400004: L
+    400006: E
+    400008: N
+    400010: barpad
+    400012: cushion
+    400014: screw
+    400016: backrest
+    400018: cushionboard
+    400020: goodcushion
+    400022: Plane
+    400024: Plane_MeshPart0
+    400026: Plane_MeshPart1
+    400028: Plane_MeshPart2
+    400030: bars
+    400032: cuchion
+    400034: bars_001
+    2300000: //RootNode
+    2300002: H
+    2300004: L
+    2300006: E
+    2300008: N
+    2300010: barpad
+    2300012: cushion
+    2300014: screw
+    2300016: backrest
+    2300018: cushionboard
+    2300020: goodcushion
+    2300022: Plane_MeshPart0
+    2300024: Plane_MeshPart1
+    2300026: Plane_MeshPart2
+    2300028: bars
+    2300030: cuchion
+    2300032: bars_001
+    3300000: //RootNode
+    3300002: H
+    3300004: L
+    3300006: E
+    3300008: N
+    3300010: barpad
+    3300012: cushion
+    3300014: screw
+    3300016: backrest
+    3300018: cushionboard
+    3300020: goodcushion
+    3300022: Plane_MeshPart0
+    3300024: Plane_MeshPart1
+    3300026: Plane_MeshPart2
+    3300028: bars
+    3300030: cuchion
+    3300032: bars_001
+    4300000: Cube
+    4300002: H
+    4300004: L
+    4300006: E
+    4300008: N
+    4300010: screw
+    4300012: barpad
+    4300014: cushion
+    4300016: Plane_MeshPart0
+    4300018: Plane_MeshPart1
+    4300020: Plane_MeshPart2
+    4300022: backrest
+    4300024: cushionboard
+    4300026: goodcushion
+    4300028: bars
+    4300030: cuchion
+    4300032: bars_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
