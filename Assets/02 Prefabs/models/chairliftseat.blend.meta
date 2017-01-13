@@ -23,6 +23,8 @@ ModelImporter:
     100030: bars
     100032: cuchion
     100034: bars_001
+    100036: safetybar
+    100038: wiregrabber
     400000: //RootNode
     400002: H
     400004: L
@@ -41,6 +43,8 @@ ModelImporter:
     400030: bars
     400032: cuchion
     400034: bars_001
+    400036: safetybar
+    400038: wiregrabber
     2300000: //RootNode
     2300002: H
     2300004: L
@@ -58,6 +62,8 @@ ModelImporter:
     2300028: bars
     2300030: cuchion
     2300032: bars_001
+    2300034: safetybar
+    2300036: wiregrabber
     3300000: //RootNode
     3300002: H
     3300004: L
@@ -75,6 +81,8 @@ ModelImporter:
     3300028: bars
     3300030: cuchion
     3300032: bars_001
+    3300034: safetybar
+    3300036: wiregrabber
     4300000: Cube
     4300002: H
     4300004: L
@@ -92,6 +100,8 @@ ModelImporter:
     4300028: bars
     4300030: cuchion
     4300032: bars_001
+    4300034: safetybar
+    4300036: wiregrabber
     7400000: Default Take
     9500000: //RootNode
   materials:
