@@ -63,6 +63,7 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
@@ -77,8 +78,6 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Status.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_StatusText.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
