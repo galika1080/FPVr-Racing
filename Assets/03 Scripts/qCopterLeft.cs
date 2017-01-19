@@ -21,6 +21,7 @@ public class qCopterLeft : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		Valve.VR.OpenVR.System.ResetSeatedZeroPose();
 		controller = gameObject.GetComponent<SteamVR_TrackedObject>();
 	}
 	
@@ -42,7 +43,7 @@ public class qCopterLeft : MonoBehaviour {
 		}
 		
 		if(device.GetTouch(SteamVR_Controller.ButtonMask.Trigger)) {
-			Application.LoadLevel(lvl);
+			Application.LoadLevel(lvl); 
 		}
 	
 	}

@@ -1,5 +1,4 @@
-﻿var health = 1000;
-var damage = 14;
+﻿var health = 100;
 
 function Update () {
 print(health);
@@ -9,7 +8,9 @@ if(health < 0)
 
 function OnCollisionEnter (collision : Collision) {
 if(collision.gameObject.tag == "9mm")
-	health = health - damage;
+	health = health - 5;
+if(collision.gameObject.tag == "shrapnel")
+	health = health - 15;
 }
 
 function Die () {

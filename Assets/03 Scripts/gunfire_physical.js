@@ -8,6 +8,8 @@ var ammo = 30;
 var flash : ParticleSystem;
 var projectile : Rigidbody;
 var speed = 400;
+var targeted = false;
+var target : Transform;
 //var anim : Animator;
 var reloading = false;
 
@@ -51,7 +53,14 @@ flash.Emit(1);
 var clone : Rigidbody;
 clone = Instantiate(projectile, transform.position + 5*transform.forward, transform.rotation);
 clone.velocity = transform.forward * speed;
-
+if(targeted) {
+	if(clone.GetComponent(clusterbomb) != null)
+		clone.GetComponent(clusterbomb).target = target;
+	if(clone.GetComponent(explodeInRange) != null)
+		clone.GetComponent(explodeInRange).target = target;
+	if(clone.GetComponent(lookAt) != null)
+		clone.GetComponent(lookAt).target = target;
+	}
 yield WaitForSeconds (shotDelay);
 if(Input.GetKey('space')) {
 	if(ammo > 0)
@@ -76,6 +85,15 @@ flash.Emit(1);
 var clone : Rigidbody;
 clone = Instantiate(projectile, transform.position + 5*transform.forward, transform.rotation);
 clone.velocity = transform.forward * speed;
+
+if(targeted) {
+	if(clone.GetComponent(clusterbomb) != null)
+		clone.GetComponent(clusterbomb).target = target;
+	if(clone.GetComponent(explodeInRange) != null)
+		clone.GetComponent(explodeInRange).target = target;
+	if(clone.GetComponent(lookAt) != null)
+		clone.GetComponent(lookAt).target = target;
+	}
 
 yield WaitForSeconds (shotDelay);
 }
