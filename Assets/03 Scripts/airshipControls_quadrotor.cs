@@ -68,13 +68,13 @@ public class airshipControls_quadrotor : MonoBehaviour {
 		}
 	}
 	
-	void Update () {
+	void FixedUpdate () {
 		if(hostobj != null) {
 			QC.centerOfMass = new Vector3(0, 0, 0);
 			device = SteamVR_Controller.Input((int)controller.index);
 			trigger = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
 			
-			Debug.Log("A controller is connected...");
+			//Debug.Log("A controller is connected...");
 			if(leftController)
 				left();
 			else
@@ -82,7 +82,7 @@ public class airshipControls_quadrotor : MonoBehaviour {
 			
 			if(Vector3.Distance(transform.position, hostobj.position) > maxDistance) {
 				hostobj = null;
-				Debug.Log("Disconnected from controller");
+				//Debug.Log("Disconnected from controller");
 			}
 		} else {
 			QC.centerOfMass = new Vector3(0, -10, 0);
@@ -90,7 +90,7 @@ public class airshipControls_quadrotor : MonoBehaviour {
 	}
 	
 	void GetPickedUp (Transform host) {
-		Debug.Log("A controller connected!");
+		//Debug.Log("A controller connected!");
 		hostobj = host;
 		controller = host.gameObject.GetComponent<SteamVR_TrackedObject>();
 	}

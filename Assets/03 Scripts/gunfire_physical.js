@@ -47,7 +47,6 @@ if(ammo%2 == 0)
 else
 	gunshot2.Play();
 ammo--;
-print("Bang!" + ammo);
 flash.Emit(1);
 
 var clone : Rigidbody;
@@ -77,7 +76,6 @@ else {
 }
 
 function SemiAuto () {
-print("Bang!" + ammo);
 gunshot1.Play();
 ammo--;
 flash.Emit(1);

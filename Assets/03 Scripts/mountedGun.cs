@@ -88,7 +88,6 @@ public class mountedGun : MonoBehaviour {
 		else
 			gunshot2.Play();
 		ammo--;
-		print("Bang!" + ammo);
 		flash.Emit(1);
 
 		Rigidbody clone;
