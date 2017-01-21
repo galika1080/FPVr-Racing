@@ -18,8 +18,6 @@ public class airshipControls_hovering : MonoBehaviour {
 	public float throttleMult = 1.0f;
 	public float yawMult = 1.0f;
 	
-	public float centerOfGravityVertical = 0.0f;
-	
 	Vector2 touchpad;
 	Vector2 trigger;
 	
@@ -31,6 +29,7 @@ public class airshipControls_hovering : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Valve.VR.OpenVR.System.ResetSeatedZeroPose();
+		hoveringThrottle = aircraft.mass*9.81f;
 	}
 	
 	void left () {
@@ -41,9 +40,9 @@ public class airshipControls_hovering : MonoBehaviour {
 			//Read the touchpad values
 			touchpad = device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
 			
-			aircraft.centerOfMass = new Vector3(touchpad.x*strafeMult, 0, touchpad.y*accelMult);
+			aircraft.AddRelativeForce(touchpad.x*strafeMult, 0, touchpad.y*accelMult);
 
-		} else aircraft.centerOfMass = new Vector3(0, -10, 0);
+		}
 			
 		//if(device.GetTouch(SteamVR_Controller.ButtonMask.Trigger)) {
 		//	Application.LoadLevel(lvl); 
@@ -52,7 +51,7 @@ public class airshipControls_hovering : MonoBehaviour {
 	
 	void right () {
 		
-		aircraft.AddRelativeForce(0, trigger.x*throttleMult, 0);
+	 	aircraft.AddRelativeForce(0, trigger.x*throttleMult, 0);
 		
 		if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad) && device.GetPress(SteamVR_Controller.ButtonMask.Touchpad)) {
             //Read the touchpad values
@@ -64,15 +63,13 @@ public class airshipControls_hovering : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-		//Debug.Log(aircraft.centerOfMass);
+		aircraft.AddRelativeForce(0, hoveringThrottle, 0);
 		if(hostobj != null) {
 			device = SteamVR_Controller.Input((int)controller.index);
 			trigger = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
 			
 			//Debug.Log("A controller is connected...");
 			if(leftController) {
-				//aircraft.AddRelativeForce(0, hoveringThrottle, 0);
-				aircraft.AddForceAtPosition(transform.up * hoveringThrottle, transform.position);
 				left();
 			} else {
 				right();
@@ -82,11 +79,9 @@ public class airshipControls_hovering : MonoBehaviour {
 				hostobj = null;
 				Debug.Log("Disconnected from controller");
 			}
-		} else if(leftController){
-			aircraft.centerOfMass = new Vector3(0, -10, 0);
-			aircraft.AddForceAtPosition(transform.up * hoveringThrottle, transform.position);
-			//aircraft.AddRelativeForce(0, hoveringThrottle, 0);
-		}
+		}// else if(leftController){
+			//aircraft.centerOfMass = new Vector3(0, -10, 0);
+		//}
 	}
 	
 	void GetPickedUp (Transform host) {
