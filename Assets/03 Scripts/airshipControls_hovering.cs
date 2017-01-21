@@ -40,7 +40,7 @@ public class airshipControls_hovering : MonoBehaviour {
 			//Read the touchpad values
 			touchpad = device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
 			
-			aircraft.AddRelativeForce(touchpad.x*strafeMult, 0, touchpad.y*accelMult);
+			aircraft.AddRelativeForce(touchpad.x*strafeMult*aircraft.mass, 0, touchpad.y*accelMult*aircraft.mass);
 
 		}
 			
@@ -51,19 +51,18 @@ public class airshipControls_hovering : MonoBehaviour {
 	
 	void right () {
 		
-	 	aircraft.AddRelativeForce(0, trigger.x*throttleMult, 0);
+	 	//aircraft.AddRelativeForce(0, trigger.x*throttleMult*aircraft.mass, 0);
 		
 		if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad) && device.GetPress(SteamVR_Controller.ButtonMask.Touchpad)) {
             //Read the touchpad values
             touchpad = device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
 			
-			aircraft.AddRelativeForce(0, touchpad.y*throttleMult, 0);
-			aircraft.AddRelativeTorque(0, touchpad.x*yawMult, 0);
+			aircraft.AddRelativeForce(0, touchpad.y*throttleMult*aircraft.mass, 0);
+			aircraft.AddRelativeTorque(0, touchpad.x*yawMult*aircraft.mass, 0);
 		}
 	}
 	
 	void FixedUpdate () {
-		aircraft.AddRelativeForce(0, hoveringThrottle, 0);
 		if(hostobj != null) {
 			device = SteamVR_Controller.Input((int)controller.index);
 			trigger = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
@@ -79,9 +78,10 @@ public class airshipControls_hovering : MonoBehaviour {
 				hostobj = null;
 				Debug.Log("Disconnected from controller");
 			}
-		}// else if(leftController){
-			//aircraft.centerOfMass = new Vector3(0, -10, 0);
-		//}
+		}
+		if(leftController){
+			aircraft.AddRelativeForce(0, hoveringThrottle, 0);
+		}
 	}
 	
 	void GetPickedUp (Transform host) {
