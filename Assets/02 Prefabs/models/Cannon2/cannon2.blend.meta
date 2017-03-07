@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 37cab92c1c65c4ae88f0dc090426128a
+timeCreated: 1488859796
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: axel
+    100002: backring
+    100004: backring_MeshPart0
+    100006: backring_MeshPart1
+    100008: backstand
+    100010: barrel
+    100012: //RootNode
+    100014: pivotlock
+    100016: pivotlock_001
+    100018: pivots
+    100020: stand
+    100022: stand_001
+    100024: wheel
+    100026: wheel_001
+    100028: wheel_001_MeshPart0
+    100030: wheel_001_MeshPart1
+    100032: wheel_MeshPart0
+    100034: wheel_MeshPart1
+    400000: axel
+    400002: backring
+    400004: backring_MeshPart0
+    400006: backring_MeshPart1
+    400008: backstand
+    400010: barrel
+    400012: //RootNode
+    400014: pivotlock
+    400016: pivotlock_001
+    400018: pivots
+    400020: stand
+    400022: stand_001
+    400024: wheel
+    400026: wheel_001
+    400028: wheel_001_MeshPart0
+    400030: wheel_001_MeshPart1
+    400032: wheel_MeshPart0
+    400034: wheel_MeshPart1
+    2300000: axel
+    2300002: backring_MeshPart0
+    2300004: backring_MeshPart1
+    2300006: backstand
+    2300008: barrel
+    2300010: pivotlock
+    2300012: pivotlock_001
+    2300014: pivots
+    2300016: stand
+    2300018: stand_001
+    2300020: wheel_001_MeshPart0
+    2300022: wheel_001_MeshPart1
+    2300024: wheel_MeshPart0
+    2300026: wheel_MeshPart1
+    3300000: axel
+    3300002: backring_MeshPart0
+    3300004: backring_MeshPart1
+    3300006: backstand
+    3300008: barrel
+    3300010: pivotlock
+    3300012: pivotlock_001
+    3300014: pivots
+    3300016: stand
+    3300018: stand_001
+    3300020: wheel_001_MeshPart0
+    3300022: wheel_001_MeshPart1
+    3300024: wheel_MeshPart0
+    3300026: wheel_MeshPart1
+    4300000: wheel_001_MeshPart0
+    4300002: wheel_001_MeshPart1
+    4300004: wheel_MeshPart0
+    4300006: wheel_MeshPart1
+    4300008: axel
+    4300010: stand_001
+    4300012: pivotlock_001
+    4300014: backring_MeshPart0
+    4300016: backring_MeshPart1
+    4300018: pivotlock
+    4300020: stand
+    4300022: backstand
+    4300024: pivots
+    4300026: barrel
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
