@@ -11,27 +11,32 @@ ModelImporter:
     100006: ammobox
     100008: gun
     100010: mount
+    100012: Cube_002
     400000: Cube
     400002: Cube_001
     400004: //RootNode
     400006: ammobox
     400008: gun
     400010: mount
+    400012: Cube_002
     2300000: Cube
     2300002: Cube_001
     2300004: ammobox
     2300006: gun
     2300008: mount
+    2300010: Cube_002
     3300000: Cube
     3300002: Cube_001
     3300004: ammobox
     3300006: gun
     3300008: mount
+    3300010: Cube_002
     4300000: Cube_001
     4300002: Cube
     4300004: ammobox
     4300006: gun
     4300008: mount
+    4300010: Cube_002
     7400000: Default Take
     9500000: //RootNode
   materials:
